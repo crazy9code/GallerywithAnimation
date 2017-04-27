@@ -1,0 +1,6 @@
+framework module Pods_MXPagerAnimation {
+  umbrella header "Pods-MXPagerAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

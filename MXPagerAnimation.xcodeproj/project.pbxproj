@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60660EC51E6ABC87007ADE8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60660EC41E6ABC87007ADE8D /* AppDelegate.swift */; };
+		60660EC71E6ABC87007ADE8D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60660EC61E6ABC87007ADE8D /* Login.swift */; };
+		60660ECA1E6ABC87007ADE8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60660EC81E6ABC87007ADE8D /* Main.storyboard */; };
+		60660ECC1E6ABC87007ADE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60660ECB1E6ABC87007ADE8D /* Assets.xcassets */; };
+		60660ECF1E6ABC87007ADE8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60660ECD1E6ABC87007ADE8D /* LaunchScreen.storyboard */; };
+		60660EDA1E6ABC87007ADE8D /* MXPagerAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60660ED91E6ABC87007ADE8D /* MXPagerAnimationTests.swift */; };
+		60660EE51E6ABC87007ADE8D /* MXPagerAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60660EE41E6ABC87007ADE8D /* MXPagerAnimationUITests.swift */; };
+		60660EF31E6AD3C9007ADE8D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60660EF21E6AD3C9007ADE8D /* Photo.swift */; };
+		60DE70DA1E6AF9F10099F7AE /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DE70D91E6AF9F10099F7AE /* All.swift */; };
+		60DE70DC1E6AFA0A0099F7AE /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DE70DB1E6AFA0A0099F7AE /* Public.swift */; };
+		60DE70DE1E6AFA1F0099F7AE /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DE70DD1E6AFA1F0099F7AE /* Albums.swift */; };
+		60DE70E01E6AFA3B0099F7AE /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DE70DF1E6AFA3B0099F7AE /* Groups.swift */; };
+		60DE70E21E6AFB560099F7AE /* MxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DE70E11E6AFB560099F7AE /* MxViewController.swift */; };
+		60E97E8F1E6D6E2200B88C18 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E97E8E1E6D6E2200B88C18 /* Camera.swift */; };
+		60E97E911E6D6E3900B88C18 /* Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E97E901E6D6E3900B88C18 /* Screenshot.swift */; };
+		60E97E951E6D6E6600B88C18 /* Instagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E97E941E6D6E6600B88C18 /* Instagram.swift */; };
+		60E97E9A1E6D709600B88C18 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E97E981E6D709600B88C18 /* CollectionViewCell.swift */; };
+		60E97E9B1E6D709600B88C18 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E97E991E6D709600B88C18 /* CollectionViewCell.xib */; };
+		60E97E9F1E6D747700B88C18 /* WhatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E97E9E1E6D747700B88C18 /* WhatsApp.swift */; };
+		9B32B08873A171486B9E71E0 /* Pods_MXPagerAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B654D6ADC73E00454BE05E8A /* Pods_MXPagerAnimation.framework */; };
+		E2F13BC54563D6A8CF982CEF /* Pods_MXPagerAnimationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC4B7F8B6C033112C68E5A1 /* Pods_MXPagerAnimationUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60660ED61E6ABC87007ADE8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60660EB91E6ABC87007ADE8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60660EC01E6ABC87007ADE8D;
+			remoteInfo = MXPagerAnimation;
+		};
+		60660EE11E6ABC87007ADE8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60660EB91E6ABC87007ADE8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60660EC01E6ABC87007ADE8D;
+			remoteInfo = MXPagerAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06ADE62BDBE93B65ED8E56DA /* Pods-MXPagerAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXPagerAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXPagerAnimation/Pods-MXPagerAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		59348079D42E493B16E2AFA9 /* Pods-MXPagerAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXPagerAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXPagerAnimation/Pods-MXPagerAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		60660EC11E6ABC87007ADE8D /* MXPagerAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXPagerAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60660EC41E6ABC87007ADE8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60660EC61E6ABC87007ADE8D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		60660EC91E6ABC87007ADE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60660ECB1E6ABC87007ADE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60660ECE1E6ABC87007ADE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60660ED01E6ABC87007ADE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60660ED51E6ABC87007ADE8D /* MXPagerAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXPagerAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60660ED91E6ABC87007ADE8D /* MXPagerAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXPagerAnimationTests.swift; sourceTree = "<group>"; };
+		60660EDB1E6ABC87007ADE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60660EE01E6ABC87007ADE8D /* MXPagerAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXPagerAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60660EE41E6ABC87007ADE8D /* MXPagerAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXPagerAnimationUITests.swift; sourceTree = "<group>"; };
+		60660EE61E6ABC87007ADE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60660EF21E6AD3C9007ADE8D /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		60DE70D91E6AF9F10099F7AE /* All.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = All.swift; sourceTree = "<group>"; };
+		60DE70DB1E6AFA0A0099F7AE /* Public.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
+		60DE70DD1E6AFA1F0099F7AE /* Albums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
+		60DE70DF1E6AFA3B0099F7AE /* Groups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		60DE70E11E6AFB560099F7AE /* MxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MxViewController.swift; sourceTree = "<group>"; };
+		60E97E8E1E6D6E2200B88C18 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		60E97E901E6D6E3900B88C18 /* Screenshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screenshot.swift; sourceTree = "<group>"; };
+		60E97E941E6D6E6600B88C18 /* Instagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instagram.swift; sourceTree = "<group>"; };
+		60E97E981E6D709600B88C18 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		60E97E991E6D709600B88C18 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		60E97E9E1E6D747700B88C18 /* WhatsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsApp.swift; sourceTree = "<group>"; };
+		9EE0FE48FF9CCD78D9C79798 /* Pods-MXPagerAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXPagerAnimationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXPagerAnimationUITests/Pods-MXPagerAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B654D6ADC73E00454BE05E8A /* Pods_MXPagerAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXPagerAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC4B7F8B6C033112C68E5A1 /* Pods_MXPagerAnimationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXPagerAnimationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77F61F4044D33DFD6392D39 /* Pods-MXPagerAnimationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXPagerAnimationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXPagerAnimationUITests/Pods-MXPagerAnimationUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60660EBE1E6ABC87007ADE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B32B08873A171486B9E71E0 /* Pods_MXPagerAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60660ED21E6ABC87007ADE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60660EDD1E6ABC87007ADE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F13BC54563D6A8CF982CEF /* Pods_MXPagerAnimationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EEA5D9D7F0FB68946E62F97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B654D6ADC73E00454BE05E8A /* Pods_MXPagerAnimation.framework */,
+				DDC4B7F8B6C033112C68E5A1 /* Pods_MXPagerAnimationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60660EB81E6ABC87007ADE8D = {
+			isa = PBXGroup;
+			children = (
+				60660EC31E6ABC87007ADE8D /* MXPagerAnimation */,
+				60660ED81E6ABC87007ADE8D /* MXPagerAnimationTests */,
+				60660EE31E6ABC87007ADE8D /* MXPagerAnimationUITests */,
+				60660EC21E6ABC87007ADE8D /* Products */,
+				8F91E48738A4AE5658A18E3C /* Pods */,
+				4EEA5D9D7F0FB68946E62F97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60660EC21E6ABC87007ADE8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60660EC11E6ABC87007ADE8D /* MXPagerAnimation.app */,
+				60660ED51E6ABC87007ADE8D /* MXPagerAnimationTests.xctest */,
+				60660EE01E6ABC87007ADE8D /* MXPagerAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60660EC31E6ABC87007ADE8D /* MXPagerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				60660EC41E6ABC87007ADE8D /* AppDelegate.swift */,
+				60660EC61E6ABC87007ADE8D /* Login.swift */,
+				60660EF21E6AD3C9007ADE8D /* Photo.swift */,
+				60DE70E11E6AFB560099F7AE /* MxViewController.swift */,
+				60DE70D91E6AF9F10099F7AE /* All.swift */,
+				60E97E8E1E6D6E2200B88C18 /* Camera.swift */,
+				60E97E901E6D6E3900B88C18 /* Screenshot.swift */,
+				60E97E9E1E6D747700B88C18 /* WhatsApp.swift */,
+				60E97E941E6D6E6600B88C18 /* Instagram.swift */,
+				60E97E981E6D709600B88C18 /* CollectionViewCell.swift */,
+				60E97E991E6D709600B88C18 /* CollectionViewCell.xib */,
+				60DE70DB1E6AFA0A0099F7AE /* Public.swift */,
+				60DE70DD1E6AFA1F0099F7AE /* Albums.swift */,
+				60DE70DF1E6AFA3B0099F7AE /* Groups.swift */,
+				60660EC81E6ABC87007ADE8D /* Main.storyboard */,
+				60660ECB1E6ABC87007ADE8D /* Assets.xcassets */,
+				60660ECD1E6ABC87007ADE8D /* LaunchScreen.storyboard */,
+				60660ED01E6ABC87007ADE8D /* Info.plist */,
+			);
+			path = MXPagerAnimation;
+			sourceTree = "<group>";
+		};
+		60660ED81E6ABC87007ADE8D /* MXPagerAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				60660ED91E6ABC87007ADE8D /* MXPagerAnimationTests.swift */,
+				60660EDB1E6ABC87007ADE8D /* Info.plist */,
+			);
+			path = MXPagerAnimationTests;
+			sourceTree = "<group>";
+		};
+		60660EE31E6ABC87007ADE8D /* MXPagerAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60660EE41E6ABC87007ADE8D /* MXPagerAnimationUITests.swift */,
+				60660EE61E6ABC87007ADE8D /* Info.plist */,
+			);
+			path = MXPagerAnimationUITests;
+			sourceTree = "<group>";
+		};
+		8F91E48738A4AE5658A18E3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59348079D42E493B16E2AFA9 /* Pods-MXPagerAnimation.debug.xcconfig */,
+				06ADE62BDBE93B65ED8E56DA /* Pods-MXPagerAnimation.release.xcconfig */,
+				9EE0FE48FF9CCD78D9C79798 /* Pods-MXPagerAnimationUITests.debug.xcconfig */,
+				F77F61F4044D33DFD6392D39 /* Pods-MXPagerAnimationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60660EC01E6ABC87007ADE8D /* MXPagerAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60660EE91E6ABC87007ADE8D /* Build configuration list for PBXNativeTarget "MXPagerAnimation" */;
+			buildPhases = (
+				F85A2F2508DEF7814E7CF6E7 /* [CP] Check Pods Manifest.lock */,
+				60660EBD1E6ABC87007ADE8D /* Sources */,
+				60660EBE1E6ABC87007ADE8D /* Frameworks */,
+				60660EBF1E6ABC87007ADE8D /* Resources */,
+				8FAF886EA67EAD37B209C2BA /* [CP] Embed Pods Frameworks */,
+				C9A56B332233424BF4B72300 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXPagerAnimation;
+			productName = MXPagerAnimation;
+			productReference = 60660EC11E6ABC87007ADE8D /* MXPagerAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60660ED41E6ABC87007ADE8D /* MXPagerAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60660EEC1E6ABC87007ADE8D /* Build configuration list for PBXNativeTarget "MXPagerAnimationTests" */;
+			buildPhases = (
+				60660ED11E6ABC87007ADE8D /* Sources */,
+				60660ED21E6ABC87007ADE8D /* Frameworks */,
+				60660ED31E6ABC87007ADE8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60660ED71E6ABC87007ADE8D /* PBXTargetDependency */,
+			);
+			name = MXPagerAnimationTests;
+			productName = MXPagerAnimationTests;
+			productReference = 60660ED51E6ABC87007ADE8D /* MXPagerAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60660EDF1E6ABC87007ADE8D /* MXPagerAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60660EEF1E6ABC87007ADE8D /* Build configuration list for PBXNativeTarget "MXPagerAnimationUITests" */;
+			buildPhases = (
+				16453DFBC166FF29CE3B9BEF /* [CP] Check Pods Manifest.lock */,
+				60660EDC1E6ABC87007ADE8D /* Sources */,
+				60660EDD1E6ABC87007ADE8D /* Frameworks */,
+				60660EDE1E6ABC87007ADE8D /* Resources */,
+				2BC815FB6DBD4051069225C4 /* [CP] Embed Pods Frameworks */,
+				D334790A1F03B3E79758F728 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60660EE21E6ABC87007ADE8D /* PBXTargetDependency */,
+			);
+			name = MXPagerAnimationUITests;
+			productName = MXPagerAnimationUITests;
+			productReference = 60660EE01E6ABC87007ADE8D /* MXPagerAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60660EB91E6ABC87007ADE8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kuliza-336";
+				TargetAttributes = {
+					60660EC01E6ABC87007ADE8D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TCH6ZFTUGJ;
+						ProvisioningStyle = Automatic;
+					};
+					60660ED41E6ABC87007ADE8D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TCH6ZFTUGJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60660EC01E6ABC87007ADE8D;
+					};
+					60660EDF1E6ABC87007ADE8D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TCH6ZFTUGJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60660EC01E6ABC87007ADE8D;
+					};
+				};
+			};
+			buildConfigurationList = 60660EBC1E6ABC87007ADE8D /* Build configuration list for PBXProject "MXPagerAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60660EB81E6ABC87007ADE8D;
+			productRefGroup = 60660EC21E6ABC87007ADE8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60660EC01E6ABC87007ADE8D /* MXPagerAnimation */,
+				60660ED41E6ABC87007ADE8D /* MXPagerAnimationTests */,
+				60660EDF1E6ABC87007ADE8D /* MXPagerAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60660EBF1E6ABC87007ADE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60660ECF1E6ABC87007ADE8D /* LaunchScreen.storyboard in Resources */,
+				60660ECC1E6ABC87007ADE8D /* Assets.xcassets in Resources */,
+				60E97E9B1E6D709600B88C18 /* CollectionViewCell.xib in Resources */,
+				60660ECA1E6ABC87007ADE8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60660ED31E6ABC87007ADE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60660EDE1E6ABC87007ADE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16453DFBC166FF29CE3B9BEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BC815FB6DBD4051069225C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXPagerAnimationUITests/Pods-MXPagerAnimationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FAF886EA67EAD37B209C2BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXPagerAnimation/Pods-MXPagerAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9A56B332233424BF4B72300 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXPagerAnimation/Pods-MXPagerAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D334790A1F03B3E79758F728 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MXPagerAnimationUITests/Pods-MXPagerAnimationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85A2F2508DEF7814E7CF6E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60660EBD1E6ABC87007ADE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60660EF31E6AD3C9007ADE8D /* Photo.swift in Sources */,
+				60DE70DA1E6AF9F10099F7AE /* All.swift in Sources */,
+				60DE70DC1E6AFA0A0099F7AE /* Public.swift in Sources */,
+				60DE70DE1E6AFA1F0099F7AE /* Albums.swift in Sources */,
+				60E97E9F1E6D747700B88C18 /* WhatsApp.swift in Sources */,
+				60E97E951E6D6E6600B88C18 /* Instagram.swift in Sources */,
+				60660EC71E6ABC87007ADE8D /* Login.swift in Sources */,
+				60DE70E21E6AFB560099F7AE /* MxViewController.swift in Sources */,
+				60660EC51E6ABC87007ADE8D /* AppDelegate.swift in Sources */,
+				60E97E9A1E6D709600B88C18 /* CollectionViewCell.swift in Sources */,
+				60DE70E01E6AFA3B0099F7AE /* Groups.swift in Sources */,
+				60E97E8F1E6D6E2200B88C18 /* Camera.swift in Sources */,
+				60E97E911E6D6E3900B88C18 /* Screenshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60660ED11E6ABC87007ADE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60660EDA1E6ABC87007ADE8D /* MXPagerAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60660EDC1E6ABC87007ADE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60660EE51E6ABC87007ADE8D /* MXPagerAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60660ED71E6ABC87007ADE8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60660EC01E6ABC87007ADE8D /* MXPagerAnimation */;
+			targetProxy = 60660ED61E6ABC87007ADE8D /* PBXContainerItemProxy */;
+		};
+		60660EE21E6ABC87007ADE8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60660EC01E6ABC87007ADE8D /* MXPagerAnimation */;
+			targetProxy = 60660EE11E6ABC87007ADE8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60660EC81E6ABC87007ADE8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60660EC91E6ABC87007ADE8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60660ECD1E6ABC87007ADE8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60660ECE1E6ABC87007ADE8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60660EE71E6ABC87007ADE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60660EE81E6ABC87007ADE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60660EEA1E6ABC87007ADE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59348079D42E493B16E2AFA9 /* Pods-MXPagerAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TCH6ZFTUGJ;
+				INFOPLIST_FILE = MXPagerAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kuliza.MXPagerAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		60660EEB1E6ABC87007ADE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06ADE62BDBE93B65ED8E56DA /* Pods-MXPagerAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TCH6ZFTUGJ;
+				INFOPLIST_FILE = MXPagerAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kuliza.MXPagerAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		60660EED1E6ABC87007ADE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TCH6ZFTUGJ;
+				INFOPLIST_FILE = MXPagerAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kuliza.MXPagerAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXPagerAnimation.app/MXPagerAnimation";
+			};
+			name = Debug;
+		};
+		60660EEE1E6ABC87007ADE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TCH6ZFTUGJ;
+				INFOPLIST_FILE = MXPagerAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kuliza.MXPagerAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXPagerAnimation.app/MXPagerAnimation";
+			};
+			name = Release;
+		};
+		60660EF01E6ABC87007ADE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE0FE48FF9CCD78D9C79798 /* Pods-MXPagerAnimationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TCH6ZFTUGJ;
+				INFOPLIST_FILE = MXPagerAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kuliza.MXPagerAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MXPagerAnimation;
+			};
+			name = Debug;
+		};
+		60660EF11E6ABC87007ADE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77F61F4044D33DFD6392D39 /* Pods-MXPagerAnimationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = TCH6ZFTUGJ;
+				INFOPLIST_FILE = MXPagerAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kuliza.MXPagerAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MXPagerAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60660EBC1E6ABC87007ADE8D /* Build configuration list for PBXProject "MXPagerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60660EE71E6ABC87007ADE8D /* Debug */,
+				60660EE81E6ABC87007ADE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60660EE91E6ABC87007ADE8D /* Build configuration list for PBXNativeTarget "MXPagerAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60660EEA1E6ABC87007ADE8D /* Debug */,
+				60660EEB1E6ABC87007ADE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60660EEC1E6ABC87007ADE8D /* Build configuration list for PBXNativeTarget "MXPagerAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60660EED1E6ABC87007ADE8D /* Debug */,
+				60660EEE1E6ABC87007ADE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60660EEF1E6ABC87007ADE8D /* Build configuration list for PBXNativeTarget "MXPagerAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60660EF01E6ABC87007ADE8D /* Debug */,
+				60660EF11E6ABC87007ADE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60660EB91E6ABC87007ADE8D /* Project object */;
+}

@@ -1,0 +1,21 @@
+PODS:
+  - HMSegmentedControl (1.5.3)
+  - MXPagerView (0.2.1)
+  - MXParallaxHeader (0.6.1)
+  - MXSegmentedPager (3.2.2):
+    - HMSegmentedControl (= 1.5.3)
+    - MXPagerView (= 0.2.1)
+    - MXParallaxHeader (= 0.6.1)
+
+DEPENDENCIES:
+  - MXSegmentedPager
+
+SPEC CHECKSUMS:
+  HMSegmentedControl: 7c6145afb50f26cec5f3243082f6f12b9f41318f
+  MXPagerView: ede184b5191b2ed689ccf05a750a9978cce42414
+  MXParallaxHeader: 858c403532ed933b381556a81ce333d7065ad182
+  MXSegmentedPager: e15df1e335bdc9d86c39eee1e6b5f7ef1a22d7c3
+
+PODFILE CHECKSUM: c56a7e6f615be11affd3bc37f04337103907bda8
+
+COCOAPODS: 1.1.1
